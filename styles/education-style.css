@@ -3,3 +3,34 @@
     color: #2b3289;
     border-radius: 10px;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: auto 40% auto;
+    padding: 10px;
+    width: 70%;
+    height: 70%;
+    column-gap: 20px;
+}
+.grid-item{
+    border: 2px solid #2b3289;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    transition: all 0.5s ease-in-out;
+}
+h4{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.grid-item:hover {
+    background-color: #2b3289;
+    color: white;
+}
+
