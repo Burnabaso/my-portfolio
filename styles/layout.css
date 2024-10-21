@@ -9,7 +9,7 @@ body{
     font-size: larger;
 }
 
-.nav-section,.footer-section{
+.nav-section{
     height: 10% ;
     background-color: #2b3289;
     z-index: 20;
@@ -44,6 +44,11 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
+    height: 10% ;
+    background-color: #2b3289;
+    z-index: 20;
+    box-shadow: 10px 0px 8px 0 rgba(0, 0, 0, 0.2), 10px 0px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .landing-content{
     display: flex;
