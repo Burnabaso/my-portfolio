@@ -8,7 +8,11 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
-
+#active{
+    background-color: white;
+    color: #2b3289;
+    border-radius: 10px;
+}
 .nav-section{
     height: 10% ;
     background-color: #2b3289;
