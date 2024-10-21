@@ -3,3 +3,21 @@
     color: #2b3289;
     border-radius: 10px;
 }
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+tr{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+td{
+    padding: 5rem 0;
+    margin-bottom: 2rem;
+    border: 3px solid #2b3289;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
