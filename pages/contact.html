@@ -23,13 +23,25 @@
       </nav>
     </div>
     <div class="landing-content">
-      <div id="hero-content">
-        <h1>Hallo 😃 I am Ibrahim 👋🏻</h1>
-        <p>Human 🧔🏻 | Developer 👨🏻‍💻 | Coffee Addict ☕</p>
+      <div class="form-card">
+        <form action="#">
+          <div class="input-field">
+            <label for="name" >Full Name</label>
+            <input type="text" required name="FullName" id="name">
+          </div>
+          <div class="input-field">
+            <label for="email">Email</label>
+            <input type="email" required name="Email" id="email">
+          </div>
+          <div class="input-field">
+            <label for="message">Your Message</label>
+            <textarea name="message" required id="message" maxlength="1000" rows="4"></textarea>
+          </div>
+          <div class="input-field">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
       </div>
-      <a href="/pages/about.html">
-        <button type="button">Know Me</button>
-      </a>
     </div>
     <div class="footer-section">
       <em>Developed by Ibrahim Itani</em>
